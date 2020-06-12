@@ -269,9 +269,17 @@ nav>ul>li:first-child>a {
 }
 
 #page article {
-    border: 1px solid red;
     padding: 8px 15px;
+    border: 1px solid #e1e2e3;
+    cursor: pointer;
+    margin: 0 5px;
 }
+
+#page article:hover {
+    background: #f2f8ff;
+}
+
+
 
 /* 底部样式 */
 footer {
